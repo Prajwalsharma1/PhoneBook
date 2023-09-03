@@ -1,0 +1,461 @@
+PS C:\Users\Eun_Ha\Desktop\Prajwal> cd
+"c:\Users\Eun_Ha\Desktop\Prajwal\new\" ; if ($?) { g++ new2.cpp -o new2 }
+; if ($?) { .\new2 }
+# Main Menu :-
+1: Insert
+2: Get
+3: Search
+4: Update
+5: Prefixes
+6: Remove
+7: Exit
+Enter the Choice :
+1
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+@ Insert in PhoneBook :
+1: Insert Name & Number
+2: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Name :
+Prajwal
+Enter the Number :
+90956
+Status : Done
+__________________________________________
+@ Insert in PhoneBook :
+1: Insert Name & Number
+2: Exit
+Enter the Choice :
+1
+28
+__________________________________________
+Enter the Name :
+Prajwal
+Enter the Number :
+99283
+Status : Done
+__________________________________________
+@ Insert in PhoneBook :
+1: Insert Name & Number
+2: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Name :
+Prajwal
+Enter the Number :
+99283
+Status : Done
+__________________________________________
+@ Insert in PhoneBook :
+1: Insert Name & Number
+2: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Name :
+Prajwal
+Enter the Number :
+90181
+Status : Done
+__________________________________________
+@ Insert in PhoneBook :
+1: Insert Name & Number
+29
+2: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Name :
+Prabhu
+Enter the Number :
+90836
+Status : Done
+__________________________________________
+@ Insert in PhoneBook :
+1: Insert Name & Number
+2: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Name :
+Prabhu
+Enter the Number :
+91787
+Status : Done
+__________________________________________
+@ Insert in PhoneBook :
+1: Insert Name & Number
+2: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Name :
+Pranjal
+Enter the Number :
+90875
+Status : Done
+__________________________________________
+30
+@ Insert in PhoneBook :
+1: Insert Name & Number
+2: Exit
+Enter the Choice :
+2
+__________________________________________
+---------------------------------------------------------
+# Main Menu :-
+1: Insert
+2: Get
+3: Search
+4: Update
+5: Prefixes
+6: Remove
+7: Exit
+Enter the Choice :
+2
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+@ Get Info. from PhoneBook :
+1: Get Name associated to the Number
+2: Get all Numbers of under the Name
+3: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Number :
+91787
+Status : Prabhu
+__________________________________________
+@ Get Info. from PhoneBook :
+1: Get Name associated to the Number
+2: Get all Numbers of under the Name
+31
+3: Exit
+Enter the Choice :
+2
+__________________________________________
+Enter the Name :
+Prabhu
+Status : 91787 90836
+__________________________________________
+@ Get Info. from PhoneBook :
+1: Get Name associated to the Number
+2: Get all Numbers of under the Name
+3: Exit
+Enter the Choice :
+3
+__________________________________________
+---------------------------------------------------------
+# Main Menu :-
+1: Insert
+2: Get
+3: Search
+4: Update
+5: Prefixes
+6: Remove
+7: Exit
+Enter the Choice :
+3
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+1
+32
+__________________________________________
+Enter the Number :
+90181
+Status : Found !!
+__________________________________________
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+2
+__________________________________________
+Enter the Name :
+Pranjal
+Status : Found !!
+__________________________________________
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+3
+__________________________________________
+---------------------------------------------------------
+# Main Menu :-
+1: Insert
+2: Get
+3: Search
+4: Update
+5: Prefixes
+6: Remove
+7: Exit
+Enter the Choice :
+33
+4
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+@ Update in PhoneBook :
+1: Update Number
+2: Update Name
+3: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the old Number :
+91787
+Enter the new Number :
+91713
+Status : Done
+__________________________________________
+@ Update in PhoneBook :
+1: Update Number
+2: Update Name
+3: Exit
+Enter the Choice :
+2
+__________________________________________
+Enter the old Name :
+Pranjal
+Enter the new Name :
+Praju
+Status : Done
+__________________________________________
+@ Update in PhoneBook :
+1: Update Number
+2: Update Name
+3: Exit
+Enter the Choice :
+34
+3
+__________________________________________
+---------------------------------------------------------
+# Main Menu :-
+1: Insert
+2: Get
+3: Search
+4: Update
+5: Prefixes
+6: Remove
+7: Exit
+Enter the Choice :
+3
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Number :
+91713
+Status : Found !!
+__________________________________________
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Number :
+35
+91787
+Status : Not Found !!
+__________________________________________
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+2
+__________________________________________
+Enter the Name :
+Pranjal
+Status : Not Found !!
+__________________________________________
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+2
+__________________________________________
+Enter the Name :
+Praju
+Status : Found !!
+__________________________________________
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+3
+__________________________________________
+---------------------------------------------------------
+36
+# Main Menu :-
+1: Insert
+2: Get
+3: Search
+4: Update
+5: Prefixes
+6: Remove
+7: Exit
+Enter the Choice :
+5
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+@ Get Prefixes from PhoneBook :
+1: Get Prefixes by Number
+2: Get Prefixes by Name
+3: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the prefix Number :
+90
+Status :
+90181 : Prajwal
+90836 : Prabhu
+90875 : Praju
+90956 : Prajwal
+__________________________________________
+@ Get Prefixes from PhoneBook :
+1: Get Prefixes by Number
+2: Get Prefixes by Name
+3: Exit
+Enter the Choice :
+2
+__________________________________________
+37
+Enter the prefix Name :
+Pra
+Status :
+Prabhu : 91713 90836
+Praju : 90875
+Prajwal : 90181 99283 90956
+__________________________________________
+@ Get Prefixes from PhoneBook :
+1: Get Prefixes by Number
+2: Get Prefixes by Name
+3: Exit
+Enter the Choice :
+3
+__________________________________________
+---------------------------------------------------------
+# Main Menu :-
+1: Insert
+2: Get
+3: Search
+4: Update
+5: Prefixes
+6: Remove
+7: Exit
+Enter the Choice :
+6
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+@ Remove info. from PhoneBook :
+1: Remove Number
+2: Remove Name
+3: Exit
+Enter the Choice :
+1
+__________________________________________
+38
+Enter the Number :
+91713
+Status : Done
+__________________________________________
+@ Remove info. from PhoneBook :
+1: Remove Number
+2: Remove Name
+3: Exit
+Enter the Choice :
+2
+__________________________________________
+Enter the Name :
+Pranjal
+Status : Contact Name Not Found !!
+__________________________________________
+@ Remove info. from PhoneBook :
+1: Remove Number
+2: Remove Name
+3: Exit
+Enter the Choice :
+2
+__________________________________________
+Enter the Name :
+Prabhu
+Status : Done
+__________________________________________
+@ Remove info. from PhoneBook :
+1: Remove Number
+2: Remove Name
+3: Exit
+Enter the Choice :
+3
+__________________________________________
+39
+---------------------------------------------------------
+# Main Menu :-
+1: Insert
+2: Get
+3: Search
+4: Update
+5: Prefixes
+6: Remove
+7: Exit
+Enter the Choice :
+3
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+1
+__________________________________________
+Enter the Number :
+91713
+Status : Not Found !!
+__________________________________________
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+2
+__________________________________________
+Enter the Name :
+Prabhu
+Status : Not Found !!
+40
+__________________________________________
+@ Search in PhoneBook :
+1: Search by Number
+2: Search by Name
+3: Exit
+Enter the Choice :
+3
+__________________________________________
+---------------------------------------------------------
+# Main Menu :-
+1: Insert
+2: Get
+3: Search
+4: Update
+5: Prefixes
+6: Remove
+7: Exit
+Enter the Choice :
+7
+=-=-=-=-=-=-=-=-=-=-==-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+=================< Phone Boook Cloaed >================
